@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="home.css"> <!-- Assuming you're using the same stylesheet as home.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        /* Additional styles for the contact_us page */
+        #map {
+            width: 100%;
+            height: 400px;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-item i {
+            margin-right: 10px;
+        }
+        /* contact_us.css */
+        .map-section {
+            margin-top: 20px;
+        }
+
+        .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
+            height: 0;
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="dashboard-left">
+            <span class="logo-text">Njesh Auto-spares and Garage</span>
+        </div>
+        <div class="dashboard-right">
+            <a href="home.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="image-container">
+            <!-- You can add a banner image here if needed -->
+        </div>
+        
+        <!-- Contact Information Section -->
+        <div class="contact-section">
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>Phone: +254713630803</p>
+            </div>
+            <div class="contact-item">
+                <a href="https://wa.me/254713630803" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <p>WhatsApp:  <span class="whatsapp-button"><a href="https://wa.me/254713630803" target="_blank">Send Whatsapp Message</a></span>
+                </p>
+            </div>
+            <div class="contact-item">
+                <i class="far fa-envelope"></i>
+                <p>Email: <a href="mailto:njeshautospares@gmail.com">njeshautospares@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="map-section">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <iframe
+                    width="600"
+                    height="450"
+                    frameborder="0"
+                    style="border: 0"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d997.414975218904!2d35.27194090680321!3d0.510583506746438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMzAnMzcuNyJOIDM1wrAxNicyMS4zIkU!5e0!3m2!1sen!2ske!4v1706273939541!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Phone: +254713630803</p>
+                <p>Email: njeshautospares@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Follow Us</h2>
+                <p>Connect with us on social media!</p>
+            </div>
+        </div>
+        <div class="footer-bar">
+            &copy; 2024 Njesh Auto-spares and Garage. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
